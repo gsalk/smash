@@ -1,0 +1,121 @@
+body {
+  background-color: #fff; }
+  body .current-score {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    z-index: 50; }
+  body #container {
+    position: absolute;
+    bottom: 0px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    top: 0;
+    left: 0;
+    right: 0; }
+    body #container .cubic {
+      bottom: 0px;
+      background-color: #000;
+      margin-right: 60px;
+      margin-left: 180px;
+      height: 100px;
+      width: 200px;
+      -webkit-border-top-left-radius: 50px;
+      -webkit-border-top-right-radius: 50px;
+      -moz-border-radius-topleft: 50px;
+      -moz-border-radius-topright: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+      position: relative; }
+      body #container .cubic .eye1 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        top: 40px;
+        left: 30px;
+        border-radius: 50%; }
+      body #container .cubic .eye2 {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        top: 40px;
+        right: 30px;
+        border-radius: 50%; }
+  body .overflow {
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+    body .overflow .start-game {
+      position: absolute;
+      z-index: 999;
+      left: 50%;
+      width: 300px;
+      height: 200px;
+      margin-left: -150px;
+      top: 50%;
+      margin-top: -100px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #fff;
+      padding-top: 20px;
+      border-radius: 5px;
+      color: #fff; }
+      body .overflow .start-game button {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff; }
+        body .overflow .start-game button:focus {
+          outline: 0; }
+    body .overflow .good-game {
+      position: absolute;
+      display: none;
+      z-index: 999;
+      left: 50%;
+      width: 300px;
+      height: 200px;
+      margin-left: -150px;
+      top: 50%;
+      margin-top: -100px;
+      text-align: center;
+      background: #000;
+      border: 1px solid #fff;
+      padding-top: 20px;
+      border-radius: 5px;
+      color: #fff; }
+      body .overflow .good-game button {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff; }
+        body .overflow .good-game button:focus {
+          outline: 0; }
+  body .deadline {
+    position: absolute;
+    z-index: 20;
+    bottom: 550px;
+    width: 100%;
+    left: 0;
+    background: red;
+    height: 100%; }
+  body .level {
+    position: absolute;
+    font-size: 40px;
+    color: #000;
+    z-index: 99;
+    display: none;
+    left: 50px;
+    top: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    z-index: 50; }
